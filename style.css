@@ -1,0 +1,254 @@
+:root{
+    --yellow:rgb(240, 236, 16);
+    --border:rgba(236, 77, 19,0);
+    --aqua:rgb(30,240,240);
+    --darkpurple:rgb(51, 3, 51);
+}
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.4;
+}
+a{
+    text-decoration: none;
+    color: var(--yellow);
+
+}
+ul{
+    list-style-type: none;
+}
+section{
+    padding: 70px 0px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.btn{
+    background-color: var(--darkpurple);
+    color: var(--yellow);
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.1rem;
+}
+.btn:hover{
+    color: var(--aqua);
+    cursor: pointer;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Backgroundimage.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border-top: 8px solid var(--darkpurple);
+   
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--border);
+    padding: 20px 0px;
+    align-items: center;
+}
+header nav .Logo{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 10%;
+}
+header nav .Logo:hover{
+    color: white;
+    cursor:pointer;
+}
+
+header nav ul{
+    display: flex;
+    margin-right: 10%
+;
+}
+header nav ul li{
+    margin-right: 40px;
+}
+header nav ul li a {
+    font-size: 2rem;
+    
+   
+}
+header nav ul li a:hover{
+    color: white;
+    cursor:pointer;
+}
+header .header-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    height: 80vh;
+}
+header .header-text h1{
+    color: var(--aqua);
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+
+}
+header .header-text p{
+    color: var(--aqua);
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+
+}
+/* about section */
+
+
+.about{
+    padding: 80px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.about article{
+    flex-basis: 30%;
+    border: 1px solid var(--border);
+    
+
+}
+.about article h2{
+    font-size: 1.7rem;
+    color: var(--darkpurple);
+}
+.about article p{
+margin: 15px 0px;
+font-size: 1.1rem;
+color: var(--darkpurple);
+}
+/* TEAM SECTION START */
+.team{
+    background-color: var(--darkpurple);
+    border: 1px solid var(--border);
+    text-align: center;
+}
+.team h3{
+    font-size: 2.5rem;
+    color: var(--yellow);
+}
+.team p {
+    font-size: 1.2rem;
+    color: var(--yellow);
+}
+.team .team-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.team .team-wrapper article img{
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    padding: 15px 15px;
+}
+.team .team-wrapper article{
+    border: 1px solid var(--aqua);
+    flex-basis: 22%;
+}
+.team .team-wrapper article h2{
+    font-size: 1.5rem;
+    color: var(--aqua);
+}
+.team .team-wrapper article p{
+    font-size: 1.2rem;
+    color: var(--yellow);
+}
+.blog{
+    text-align: center;
+    border: 2px solid var(--border);
+    background-color: black;
+    
+}
+.blog h3{
+    font-size: 2.3rem;
+    color: var(--aqua);
+}
+.blog p{
+    font-size: 1.2rem;
+    color: var(--yellow);
+}
+
+.blog .blog-wrapper {
+    border: 2px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.blog .blog-wrapper article{
+    flex-basis: 50%;
+    background-color: var(--darkpurple);
+    padding: 15px 0px;
+}
+.blog .blog-wrapper article img{
+    width: 600px;
+}
+.blog .blog-wrapper article p{
+    color: var(--aqua);
+    font-size: 1.5rem;
+}
+.blog .blog-wrapper article h1{
+color: var(--yellow);
+font-size: 2rem;
+}
+.blog .blog-wrapper article button{
+    background-color: var(--yellow);
+    color: var(--darkpurple);
+}
+.blog .blog-wrapper article button:hover{
+    background-color: var(--aqua);
+    color: var(--darkpurple);
+}
+/* CONTACT US */
+nav{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--border);
+    padding: 20px 0px;
+    align-items: center;
+    background-color: var(--darkpurple);
+}
+nav .Logo{
+    font-size: 2rem;
+    font-weight: 600;
+}
+nav .Logo:hover{
+    color: white;
+    cursor:pointer;
+}
+
+nav ul{
+    display: flex;
+;
+}
+nav ul li{
+    margin-right: 40px;
+}
+nav ul li a {
+    font-size: 2rem;
+    
+   
+}
+nav ul li a:hover{
+    color: white;
+    cursor:pointer;
+}
